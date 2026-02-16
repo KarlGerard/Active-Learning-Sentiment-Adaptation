@@ -1,0 +1,14 @@
+venv/
+.venv/
+env/
+.env/
+
+dataset/
+
+results/
+rendu/
+Note 2024 - Sheet1.pdf
+Project.pdf
+__pycache__/
+*.py[cod]
+*$py.class
