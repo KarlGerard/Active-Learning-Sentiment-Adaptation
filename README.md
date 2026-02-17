@@ -37,17 +37,25 @@ pip install -r requirements.txt
 --- 
 
 ## Stratégies d'Incertitude
+```bash
 python main.py -o entropy
 python main.py -o margin
+```
 
 ## Stratégies de Diversité
+```bash
 python main.py -o density
 python main.py -o diversity
 python main.py -o max_dist
+```
 
 ## Stratégies de Référence et Hybride
+```bash
 python main.py -o random
 python main.py -o combined
+```
 
 ## Génération du graphique final
+```bash
 python plot_comparison.py
+```
